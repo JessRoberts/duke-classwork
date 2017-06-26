@@ -1,6 +1,5 @@
 // write your code here
 var img = new SimpleImage("hilton.jpg")
-var imgW = img.getWidth()/3 *2
 
 for (var pixel of img.values()) {
     if (pixel.getX() < img.getWidth()/3){
